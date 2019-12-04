@@ -4,8 +4,25 @@
 
 ![profile](profile.png)
 
-### Laravel
-
 ---
 
-### Test
+## Test
+
+### Bash
+
+```BASH
+
+cd test
+
+composer require laravel/ui --dev
+
+php artisan ui react
+
+// Generate login / registration scaffolding...
+php artisan ui react --auth
+
+npm install
+
+npm run dev
+
+```
