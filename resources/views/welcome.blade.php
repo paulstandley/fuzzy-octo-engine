@@ -5,13 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name', 'fuzzy') }}</title>
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="css/app.css">
-
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -31,7 +29,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    fuzzy
+                    <header>
+                        <h1>fuzzy</h1>
+                    </header>
+                </div>
+                <div class="links">
+                    <a href="https://paulstandley.com" target="_blank">Paul Standley</a>
                 </div>
             </div>
         </div>

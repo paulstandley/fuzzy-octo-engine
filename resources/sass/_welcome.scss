@@ -2,9 +2,15 @@ html, body {
   background-color: $body-bg;
   color: $body-color;
   font-family: 'Nunito', sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   height: 100vh;
   margin: 0;
+}
+
+header {
+  h1 {
+    font-size: 6rem;
+  }
 }
 
 .full-height {
@@ -37,12 +43,17 @@ html, body {
 
 .links > a {
   color: $login-link;
-  padding: 0 25px;
-  font-size: 13px;
+  padding: 0 2rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.links :hover {
+  color: rgb(248, 239, 239);
+  background-color: rgb(37, 26, 26);
 }
 
 .m-b-md {
