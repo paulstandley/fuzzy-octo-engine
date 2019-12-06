@@ -21,4 +21,6 @@ npm install && npm run dev
 
 php artisan serve
 
+php artisan make:controller PhotoController --resource
+
 ```
